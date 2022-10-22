@@ -25,18 +25,5 @@ public class Cuenta {
         CuentaBancaria1.Retirar(cantidadR);
         CuentaBancaria1.ExtractoMensual();
         CuentaBancaria1.ImprimiCuentaAhorros();
-        
-        System.out.println("Entrando a tu cuenta corriente");
-        
-        
-        System.out.println("");
-        System.out.println("");
-        System.out.println("");
-        System.out.println("");
-        System.out.println("");
-        
-        
-        
     }
-    
-}
+ }
