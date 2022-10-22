@@ -7,7 +7,8 @@ public class Contrarelojista extends Ciclista {
     public double VelocidadMaxima;
     
     public Contrarelojista(int Identificador, String Nombre,
-            double VelocidadMaxima) {
+    double VelocidadMaxima) {
+        
         super(Identificador, Nombre);
         this.VelocidadMaxima = VelocidadMaxima;
     }
@@ -22,20 +23,13 @@ public class Contrarelojista extends Ciclista {
     
     public void ImprimirContrarelojista(){
         
+        super.ImprimirCiclista();
+        System.out.println("Aceleracion Promedio: "+ VelocidadMaxima);
+        
     }
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     String ImprimirTipo() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        return "Es un contrarelojista";
     }
     
 }
