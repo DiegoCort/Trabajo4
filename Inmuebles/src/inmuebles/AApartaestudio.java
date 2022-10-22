@@ -1,7 +1,6 @@
 
 package inmuebles;
 
-
 public class AApartaestudio extends vApartamento {
     
     protected static double vArea=1500000;
