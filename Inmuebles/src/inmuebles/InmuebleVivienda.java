@@ -16,7 +16,7 @@ public class InmuebleVivienda extends Inmuebles {
         
         super.imprimirInmuebles();
         System.out.println("Numero de habitaciones: "+ nHabitaciones);
-        System.out.println("Numero de baños"+ nBaños);
+        System.out.println("Numero de inodoros"+ nBaños);
     }
     
 }
